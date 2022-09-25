@@ -191,11 +191,13 @@ class _LoginScreenState extends State<LoginScreen> {
                           padding: const EdgeInsets.only(top: 15, bottom: 15),
                           child: TextButton(
                             onPressed: () {},
-                            child: Text(
-                              "Forgot password?",
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
+                            child: Container(
+                              child: Text(
+                                "Forgot password?",
+                                style: TextStyle(
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
                           ),
