@@ -192,6 +192,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           child: TextButton(
                             onPressed: () {},
                             child: Container(
+                              height: 200,
                               child: Text(
                                 "Forgot password?",
                                 style: TextStyle(
